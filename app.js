@@ -15,7 +15,7 @@ function agregarAmigo() {
     else{
         amigos.push(nombre.value.trim());
         nombre.value = "";
-        console.log(amigos);
+        //console.log(amigos);
     }
     // Ejecuta la funcion de para agregar el nombre a lista en el HTML
     agregarAmigosLista();
@@ -31,4 +31,24 @@ function agregarAmigosLista() {
         li.textContent = amigos[i];
         lista.appendChild(li);
     }
+};
+
+
+function sortearAmigo() {
+    if (amigos.length < 2) { // Si no hay al menos 2 nombres no se puede sortear
+        alert("No hay suficientes nombres en la lista. Agrega 2 amigos o más para continuar");
+    }
+    else{
+        let indiceAleatorio = Math.floor(Math.random() * amigos.length); // Se crean numeros aleatorios en base a la cantidad de nombres que haya en el el arreglo
+        
+        //console.log(indiceAmigoAleatorio);
+
+        let amigoSecreto = amigos[indiceAleatorio];
+
+        //console.log(amigoSecreto);
+
+        lista.innerHTML= ""; 
+        let mensajeAmigoSecreto = document.getElementById('resultado')
+        mensajeAmigoSecreto.innerHTML = `El amigo secreto es ${amigoSecreto}`
+    };
 };
