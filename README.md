@@ -6,7 +6,7 @@ Una aplicación web interactiva para organizar sorteos de amigo secreto de maner
 
 ## 📋 Descripción
 
-**Amigo Secreto** es una aplicación desarrollada como parte del Challenge de Principiante en Programación de Alura. Este proyecto implementa la lógica necesaria para crear listas de participantes y realizar sorteos aleatorios, poniendo en práctica conceptos fundamentales de JavaScript, HTML y CSS.
+**Amigo Secreto** es una aplicación desarrollada como parte del Challenge de Principiante en Programación de Alura. Este proyecto implementa la lógica necesaria para crear listas de participantes y realizar sorteos aleatorios, poniendo en práctica conceptos fundamentales de JavaScript.
 
 ## 🚀 Funcionalidades
 
@@ -78,7 +78,6 @@ Este proyecto forma parte del programa **Oracle Next Education (ONE)** en asocia
 - ✅ Dominar el pensamiento lógico y algorítmico
 - ✅ Mejorar habilidades de análisis y resolución de problemas
 - ✅ Ampliar perspectivas en el desarrollo web
-
 
 ## 📝 Licencia
 
